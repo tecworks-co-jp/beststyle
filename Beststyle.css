@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Klee+One&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Klee+One&display=swap');*/
 body {
     font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
     margin: 0;
@@ -277,12 +277,12 @@ header {
     height: 150px;
     /* border-radius: 0 0 196px 0; */
     /* background-color: #384102; */
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 32px;
+    /* font-family: "Cormorant Garamond", serif; */
+    font-weight: 700;
+    /* font-style: italic; */
+    font-size: 24px;
     color: rgb(39, 39, 38);
-    top: 16px;
+    top: 18px;
     text-decoration: none;
     z-index: 9999;
     margin-left:20px;
@@ -422,7 +422,7 @@ header {
 .menu-list{
     display: none;
     position: absolute;
-    top: 8vw;
+    top: 15vw;
     left: 0;
     right: 0;
     width: 62%;
@@ -549,7 +549,7 @@ header {
     height: 180px;
     /* border-radius: 118px; */
     /* background-color: #b4d305; */
-    margin: 0 auto 40px;
+    margin: 40px auto 0;
     vertical-align: middle;
     color: rgb(51, 50, 50);
     background-image: linear-gradient(0deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);
@@ -600,9 +600,9 @@ header {
     right: 0;
     text-align: center;
     color: rgb(51, 50, 50);
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 500;
-    font-style: italic;
+    /* font-family: "Cormorant Garamond", serif; */
+    font-weight: 700;
+    /* font-style: italic; */
     /* font-size: 28px; */
     /* letter-spacing: -2px; */
     /* font-weight: 100; */
