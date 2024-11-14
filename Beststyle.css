@@ -675,13 +675,12 @@ footer {
  .about__copy {
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 15px #2483A0;
-    display: inline-block;
-    width: 100%;
-    max-width: 32vw;
+    text-align: center;
     vertical-align: middle;
 }
 .about__copy h2 {
-    margin: 0 0 30px 0;
+    margin: 0 0 80px 0;
+    font-size:40px;
 }
 .about__copy h2 span {
     padding-left: 2em;
@@ -694,9 +693,7 @@ footer {
 }
 
 .about__detail {
-    display: inline-block;
-    width: 100%;
-    max-width: calc(100% - 32vw);
+    margin:4vw;
     background-color: rgba(255, 255, 255, 0.8);    
     /* background-color: rgba(197, 254, 42, 0.8); */
     vertical-align: middle;
@@ -708,7 +705,7 @@ footer {
     font-size: 1.4vw;
     font-weight: bold;
     line-height: 3.5;
-    padding: 4vw;
+    padding: 6vw 10vw;
     margin: -2% 0;
 }
 .about__detail p .btn{
@@ -723,9 +720,14 @@ footer {
     width: 100%;
     max-width: none;
     vertical-align: middle;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
+}
+.about__copy h2 {
+    margin: 0;
+    font-size:30px;
 }
 .about__detail {
+    margin:0;
     display: block;
     width: 100%;
     min-width: auto;
